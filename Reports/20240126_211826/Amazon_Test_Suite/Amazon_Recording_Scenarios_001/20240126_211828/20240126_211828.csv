@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,Firefox 121.0,,,26-01-2024 21:18:32,26-01-2024 21:19:56,1m - 23.544s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Search_Item_003,Firefox 121.0,Validate the amazon application to search an item.,,26-01-2024 21:18:32,26-01-2024 21:18:44,11.279s,FAILED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 21:18:33,26-01-2024 21:18:36,3.579s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 21:18:36,26-01-2024 21:18:39,2.272s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 21:18:39,26-01-2024 21:18:39,0.038s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Firefox 121.0,,,26-01-2024 21:18:39,26-01-2024 21:18:44,5.157s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_AddToCart_004,Firefox 121.0,Validate the amazon application for Add to Cart feature,,26-01-2024 21:18:44,26-01-2024 21:18:53,9.380s,FAILED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 21:18:44,26-01-2024 21:18:48,4.022s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 21:18:48,26-01-2024 21:18:50,2.060s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 21:18:50,26-01-2024 21:18:50,0.081s,PASSED
+"selectOptionByValue(findTestObject(""Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Firefox 121.0,,,26-01-2024 21:18:50,26-01-2024 21:18:53,3.132s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Registration_001,Firefox 121.0,Validate the amazon application for Registering as a New User,,26-01-2024 21:18:53,26-01-2024 21:19:13,19.640s,PASSED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 21:18:53,26-01-2024 21:18:57,4.062s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 21:18:57,26-01-2024 21:19:00,2.396s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 21:19:00,26-01-2024 21:19:00,0.024s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Firefox 121.0,,,26-01-2024 21:19:00,26-01-2024 21:19:05,5.220s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Firefox 121.0,,,26-01-2024 21:19:05,26-01-2024 21:19:07,2.051s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName""), ""Varshith Puli"")",Firefox 121.0,,,26-01-2024 21:19:07,26-01-2024 21:19:08,1.422s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email""), ""pulivarshit@gmail.com"")",Firefox 121.0,,,26-01-2024 21:19:08,26-01-2024 21:19:09,0.534s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Firefox 121.0,,,26-01-2024 21:19:09,26-01-2024 21:19:09,0.320s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Firefox 121.0,,,26-01-2024 21:19:09,26-01-2024 21:19:10,0.521s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue""))",Firefox 121.0,,,26-01-2024 21:19:10,26-01-2024 21:19:11,1.718s,PASSED
+closeBrowser(),Firefox 121.0,,,26-01-2024 21:19:11,26-01-2024 21:19:13,1.282s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Sign_In_002,Firefox 121.0,Validate the amazon application for the Sign In User Interface,,26-01-2024 21:19:13,26-01-2024 21:19:30,16.901s,PASSED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 21:19:13,26-01-2024 21:19:15,2.649s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 21:19:15,26-01-2024 21:19:18,2.285s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 21:19:18,26-01-2024 21:19:18,0.024s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Firefox 121.0,,,26-01-2024 21:19:18,26-01-2024 21:19:22,4.527s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), ""pulivarshit@gmail.com"")",Firefox 121.0,,,26-01-2024 21:19:22,26-01-2024 21:19:24,1.423s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Firefox 121.0,,,26-01-2024 21:19:24,26-01-2024 21:19:25,1.037s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Firefox 121.0,,,26-01-2024 21:19:25,26-01-2024 21:19:26,0.959s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Firefox 121.0,,,26-01-2024 21:19:26,26-01-2024 21:19:28,2.599s,PASSED
+closeBrowser(),Firefox 121.0,,,26-01-2024 21:19:28,26-01-2024 21:19:30,1.339s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Order_Item_005,Firefox 121.0,Validate the amazon appliction to Order an item,,26-01-2024 21:19:30,26-01-2024 21:19:56,26.154s,PASSED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 21:19:30,26-01-2024 21:19:32,2.626s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 21:19:32,26-01-2024 21:19:34,2.011s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 21:19:34,26-01-2024 21:19:34,0.085s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite""))",Firefox 121.0,,,26-01-2024 21:19:34,26-01-2024 21:19:37,2.559s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Page_Amazon.com Shopping Cart/input_This order contains a gift_proceedToRetailCheckout""))",Firefox 121.0,,,26-01-2024 21:19:37,26-01-2024 21:19:54,17.270s,PASSED
+closeBrowser(),Firefox 121.0,,,26-01-2024 21:19:54,26-01-2024 21:19:56,1.552s,PASSED

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_Excel,Chrome 120.0.0.0,,,26-01-2024 21:56:54,26-01-2024 21:57:20,26.638s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 21:56:54,26-01-2024 21:57:01,7.067s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:56:54,26-01-2024 21:56:56,1.632s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:56:56,26-01-2024 21:56:58,2.236s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:56:58,26-01-2024 21:56:58,0.157s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Product, true)",Chrome 120.0.0.0,,,26-01-2024 21:56:58,26-01-2024 21:57:01,2.748s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 21:57:01,26-01-2024 21:57:15,14.184s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:57:01,26-01-2024 21:57:02,0.918s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:57:02,26-01-2024 21:57:04,1.906s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:57:04,26-01-2024 21:57:04,0.131s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Product, true)",Chrome 120.0.0.0,,,26-01-2024 21:57:04,26-01-2024 21:57:15,11.196s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 21:57:15,26-01-2024 21:57:18,2.535s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:57:15,26-01-2024 21:57:16,0.855s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:57:16,26-01-2024 21:57:18,1.638s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:57:18,26-01-2024 21:57:18,0.016s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 21:57:18,26-01-2024 21:57:20,2.484s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:57:18,26-01-2024 21:57:19,0.813s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:57:19,26-01-2024 21:57:20,1.633s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:57:20,26-01-2024 21:57:20,0.017s,FAILED

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,Firefox 121.0,,,26-01-2024 20:38:41,26-01-2024 20:40:44,2m - 3.003s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_AddToCart_004,Firefox 121.0,Validate the amazon application for Add to Cart feature,,26-01-2024 20:38:41,26-01-2024 20:38:52,10.709s,FAILED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 20:38:42,26-01-2024 20:38:47,4.951s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 20:38:47,26-01-2024 20:38:49,2.423s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 20:38:49,26-01-2024 20:38:49,0.158s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Firefox 121.0,,,26-01-2024 20:38:49,26-01-2024 20:38:52,2.786s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Order_Item_005,Firefox 121.0,Validate the amazon appliction to Order an item,,26-01-2024 20:38:52,26-01-2024 20:39:40,47.931s,FAILED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 20:38:52,26-01-2024 20:38:56,4.257s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 20:38:56,26-01-2024 20:38:59,2.477s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 20:38:59,26-01-2024 20:38:59,0.013s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite""))",Firefox 121.0,,,26-01-2024 20:38:59,26-01-2024 20:39:09,9.785s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Page_Amazon.com Shopping Cart/input_This order contains a gift_proceedToRetailCheckout""))",Firefox 121.0,,,26-01-2024 20:39:09,26-01-2024 20:39:40,31.295s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Registration_001,Firefox 121.0,Validate the amazon application for Registering as a New User,,26-01-2024 20:39:40,26-01-2024 20:40:18,38.104s,FAILED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 20:39:40,26-01-2024 20:39:44,4.086s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 20:39:44,26-01-2024 20:39:47,2.520s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 20:39:47,26-01-2024 20:39:47,0.018s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Firefox 121.0,,,26-01-2024 20:39:47,26-01-2024 20:40:18,31.419s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Search_Item_003,Firefox 121.0,Validate the amazon application to search an item.,,26-01-2024 20:40:18,26-01-2024 20:40:29,10.998s,FAILED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 20:40:18,26-01-2024 20:40:22,3.651s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 20:40:22,26-01-2024 20:40:24,2.670s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 20:40:24,26-01-2024 20:40:24,0.016s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Firefox 121.0,,,26-01-2024 20:40:24,26-01-2024 20:40:29,4.608s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Sign_In_002,Firefox 121.0,Validate the amazon application for the Sign In User Interface,,26-01-2024 20:40:29,26-01-2024 20:40:44,15.015s,PASSED
+"openBrowser("""")",Firefox 121.0,,,26-01-2024 20:40:29,26-01-2024 20:40:33,3.796s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 121.0,,,26-01-2024 20:40:33,26-01-2024 20:40:35,1.655s,PASSED
+maximizeWindow(),Firefox 121.0,,,26-01-2024 20:40:35,26-01-2024 20:40:35,0.049s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Firefox 121.0,,,26-01-2024 20:40:35,26-01-2024 20:40:37,2.478s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), ""pulivarshit@gmail.com"")",Firefox 121.0,,,26-01-2024 20:40:37,26-01-2024 20:40:39,1.527s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Firefox 121.0,,,26-01-2024 20:40:39,26-01-2024 20:40:40,1.284s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Firefox 121.0,,,26-01-2024 20:40:40,26-01-2024 20:40:41,0.960s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Firefox 121.0,,,26-01-2024 20:40:41,26-01-2024 20:40:43,1.987s,PASSED
+closeBrowser(),Firefox 121.0,,,26-01-2024 20:40:43,26-01-2024 20:40:44,1.221s,PASSED

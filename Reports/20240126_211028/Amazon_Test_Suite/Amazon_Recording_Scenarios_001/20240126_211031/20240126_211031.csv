@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,,,,26-01-2024 21:11:42,26-01-2024 21:11:44,1.874s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Search_Item_003,,Validate the amazon application to search an item.,,26-01-2024 21:11:43,26-01-2024 21:11:44,1.312s,FAILED
+"openBrowser("""")",,,,26-01-2024 21:11:43,26-01-2024 21:11:44,1.081s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_AddToCart_004,,Validate the amazon application for Add to Cart feature,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.111s,FAILED
+"openBrowser("""")",,,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.026s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Registration_001,,Validate the amazon application for Registering as a New User,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.092s,FAILED
+"openBrowser("""")",,,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.025s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Sign_In_002,,Validate the amazon application for the Sign In User Interface,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.089s,FAILED
+"openBrowser("""")",,,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.021s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Order_Item_005,,Validate the amazon appliction to Order an item,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.082s,FAILED
+"openBrowser("""")",,,,26-01-2024 21:11:44,26-01-2024 21:11:44,0.022s,FAILED

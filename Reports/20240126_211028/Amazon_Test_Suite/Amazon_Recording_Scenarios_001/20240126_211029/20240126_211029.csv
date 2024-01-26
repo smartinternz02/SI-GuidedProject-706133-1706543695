@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,Chrome 120.0.0.0,,,26-01-2024 21:10:36,26-01-2024 21:11:38,1m - 2.541s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Search_Item_003,Chrome 120.0.0.0,Validate the amazon application to search an item.,,26-01-2024 21:10:36,26-01-2024 21:10:50,14.211s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:10:36,26-01-2024 21:10:38,1.604s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:10:38,26-01-2024 21:10:40,2.218s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:10:40,26-01-2024 21:10:40,0.159s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,26-01-2024 21:10:40,26-01-2024 21:10:43,2.523s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Death Note"")",Chrome 120.0.0.0,,,26-01-2024 21:10:43,26-01-2024 21:10:44,1.058s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,26-01-2024 21:10:44,26-01-2024 21:10:50,6.205s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,26-01-2024 21:10:50,26-01-2024 21:10:50,0.224s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_AddToCart_004,Chrome 120.0.0.0,Validate the amazon application for Add to Cart feature,,26-01-2024 21:10:50,26-01-2024 21:10:56,6.435s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:10:50,26-01-2024 21:10:51,0.740s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:10:51,26-01-2024 21:10:53,2.422s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:10:53,26-01-2024 21:10:53,0.151s,PASSED
+"selectOptionByValue(findTestObject(""Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 120.0.0.0,,,26-01-2024 21:10:53,26-01-2024 21:10:56,3.012s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Registration_001,Chrome 120.0.0.0,Validate the amazon application for Registering as a New User,,26-01-2024 21:10:56,26-01-2024 21:11:08,11.151s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:10:57,26-01-2024 21:10:57,0.879s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:10:57,26-01-2024 21:11:00,2.180s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:11:00,26-01-2024 21:11:00,0.175s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,26-01-2024 21:11:00,26-01-2024 21:11:02,1.727s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,26-01-2024 21:11:02,26-01-2024 21:11:03,1.554s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName""), ""Varshith Puli"")",Chrome 120.0.0.0,,,26-01-2024 21:11:03,26-01-2024 21:11:05,1.504s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email""), ""pulivarshit@gmail.com"")",Chrome 120.0.0.0,,,26-01-2024 21:11:05,26-01-2024 21:11:05,0.636s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Chrome 120.0.0.0,,,26-01-2024 21:11:05,26-01-2024 21:11:06,0.393s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Chrome 120.0.0.0,,,26-01-2024 21:11:06,26-01-2024 21:11:06,0.573s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,26-01-2024 21:11:06,26-01-2024 21:11:07,1.270s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,26-01-2024 21:11:07,26-01-2024 21:11:08,0.189s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Sign_In_002,Chrome 120.0.0.0,Validate the amazon application for the Sign In User Interface,,26-01-2024 21:11:08,26-01-2024 21:11:20,12.001s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:11:08,26-01-2024 21:11:08,0.714s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:11:08,26-01-2024 21:11:11,2.206s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:11:11,26-01-2024 21:11:11,0.125s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,26-01-2024 21:11:11,26-01-2024 21:11:15,4.188s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), ""pulivarshit@gmail.com"")",Chrome 120.0.0.0,,,26-01-2024 21:11:15,26-01-2024 21:11:17,1.814s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,26-01-2024 21:11:17,26-01-2024 21:11:18,1.224s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), ""ekVqcL3GsCB2rhXwrdHNaQ=="")",Chrome 120.0.0.0,,,26-01-2024 21:11:18,26-01-2024 21:11:19,0.923s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,26-01-2024 21:11:19,26-01-2024 21:11:19,0.562s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,26-01-2024 21:11:19,26-01-2024 21:11:20,0.185s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Order_Item_005,Chrome 120.0.0.0,Validate the amazon appliction to Order an item,,26-01-2024 21:11:20,26-01-2024 21:11:38,18.550s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 21:11:20,26-01-2024 21:11:20,0.722s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 21:11:20,26-01-2024 21:11:23,2.609s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 21:11:23,26-01-2024 21:11:23,0.157s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite""))",Chrome 120.0.0.0,,,26-01-2024 21:11:23,26-01-2024 21:11:25,1.980s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Page_Amazon.com Shopping Cart/input_This order contains a gift_proceedToRetailCheckout""))",Chrome 120.0.0.0,,,26-01-2024 21:11:25,26-01-2024 21:11:38,12.826s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,26-01-2024 21:11:38,26-01-2024 21:11:38,0.205s,PASSED

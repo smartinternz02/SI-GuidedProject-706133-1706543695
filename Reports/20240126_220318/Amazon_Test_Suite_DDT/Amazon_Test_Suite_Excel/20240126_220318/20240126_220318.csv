@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_Excel,Chrome 120.0.0.0,,,26-01-2024 22:03:21,26-01-2024 22:04:20,59.111s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 22:03:21,26-01-2024 22:03:32,10.291s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 22:03:22,26-01-2024 22:03:23,1.567s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 22:03:23,26-01-2024 22:03:25,1.464s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 22:03:25,26-01-2024 22:03:25,0.138s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Product, true)",Chrome 120.0.0.0,,,26-01-2024 22:03:25,26-01-2024 22:03:32,6.848s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 22:03:32,26-01-2024 22:03:41,8.996s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 22:03:32,26-01-2024 22:03:33,0.906s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 22:03:33,26-01-2024 22:03:34,1.701s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 22:03:34,26-01-2024 22:03:35,0.130s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Product, true)",Chrome 120.0.0.0,,,26-01-2024 22:03:35,26-01-2024 22:03:41,6.230s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 22:03:41,26-01-2024 22:04:15,34.042s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 22:03:41,26-01-2024 22:03:42,0.890s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 22:03:42,26-01-2024 22:03:43,1.336s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 22:03:43,26-01-2024 22:03:43,0.123s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Product, true)",Chrome 120.0.0.0,,,26-01-2024 22:03:43,26-01-2024 22:04:15,31.676s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 120.0.0.0,,,26-01-2024 22:04:15,26-01-2024 22:04:20,5.494s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 22:04:15,26-01-2024 22:04:16,0.869s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,26-01-2024 22:04:16,26-01-2024 22:04:18,1.732s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,26-01-2024 22:04:18,26-01-2024 22:04:18,0.178s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Product, true)",Chrome 120.0.0.0,,,26-01-2024 22:04:18,26-01-2024 22:04:20,2.702s,FAILED
