@@ -31,16 +31,16 @@ class TL_Amazon_SearchItem_Validation {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		//println testCaseContext.getTestCaseId()
 		//println testCaseContext.getTestCaseVariables()
-		WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
+		//WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 		
-		WebUI.setText(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_email'), 'pulivarshit@gmail.com')
+		//WebUI.setText(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_email'), 'pulivarshit@gmail.com')
 		
-		WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputcontinue'))
+		//WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputcontinue'))
 		
-		WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_password'),
-			'8LAb5JbH9GYYbeHjJjwPWg==')
+		//WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_password'),
+			//'8LAb5JbH9GYYbeHjJjwPWg==')
 		
-		WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputsignInSubmit'))
+		//WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputsignInSubmit'))
 		
 	}
 
@@ -52,9 +52,9 @@ class TL_Amazon_SearchItem_Validation {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		//println testCaseContext.getTestCaseId()
 		//println testCaseContext.getTestCaseStatus()
-		WebUI.focus(findTestObject('Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow'))
+		//WebUI.focus(findTestObject('Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow'))
 		
-		WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out'))
+		//WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out'))
 		
 	}
 

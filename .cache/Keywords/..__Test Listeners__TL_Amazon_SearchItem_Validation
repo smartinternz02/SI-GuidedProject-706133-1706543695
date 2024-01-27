@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "AA79078265090D231DEBA2B4441DFF19",
+  "keywordFileContentHash": "B594C12A824E02967619CC20FFF1F475",
   "keywordClasses": [
     {
       "name": "TL_Amazon_SearchItem_Validation",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
