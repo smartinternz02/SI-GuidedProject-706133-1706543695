@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Amazon_Test_Suite_InternalData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>63be7075-f902-46fd-b258-c70bf133e5d6</testSuiteGuid>
+   <testCaseLink>
+      <guid>8c027435-5c60-46dc-8857-e07291c7d025</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>58b3d7e6-b24a-40b4-b737-ec020c9c5bb7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Amazon_DDT_Excel/Amazon_TestData_Excel</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>58b3d7e6-b24a-40b4-b737-ec020c9c5bb7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Category_Item</value>
+         <variableId>3de6d066-af38-451e-8c5e-e283ec564ebc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58b3d7e6-b24a-40b4-b737-ec020c9c5bb7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Product</value>
+         <variableId>037d981a-ea12-4e20-b8cb-a7b429fcefaf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6369ce4c-65dc-460d-8087-55ce82f65132</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_Driven_Testing/TC_Amazon_InternalData_002</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

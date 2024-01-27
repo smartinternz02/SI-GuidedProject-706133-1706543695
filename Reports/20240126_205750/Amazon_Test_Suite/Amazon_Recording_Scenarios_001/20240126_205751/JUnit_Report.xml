@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Recording_Scenarios_001" time="92.951" tests="5" failures="0" errors="0">
+   <testsuite name="Amazon_Recording_Scenarios_001" tests="5" failures="0" errors="0" time="92.951" skipped="0" timestamp="26-01-2024T20:57:57" hostname="puliv - 192.168.1.44" id="Test Suites/Amazon_Test_Suite/Amazon_Recording_Scenarios_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Workspace\\AMAZON_Automation-Testing-using-Katalon\\Reports\\20240126_205750\\Amazon_Test_Suite\\Amazon_Recording_Scenarios_001\\20240126_205751"/>
+         <property name="logFiles" value="C:\\Workspace\\AMAZON_Automation-Testing-using-Katalon\\Reports\\20240126_205750\\Amazon_Test_Suite\\Amazon_Recording_Scenarios_001\\20240126_205751\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="puliv - 192.168.1.44"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.44"/>
+         <property name="sessionId" value="f747e7cdb685de9a4e5e12829e4b72e4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_Amazon_AddToCart_004" time="22.291" classname="Test Cases/Amazon/TC_Amazon_AddToCart_004" status="PASSED">
+         <system-out><![CDATA[26-01-2024T20:57:57 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_AddToCart_004: Test Cases/Amazon/TC_Amazon_AddToCart_004
+
+26-01-2024T20:57:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T20:57:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T20:57:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T20:57:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T20:57:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:01 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-01-2024T20:58:01 - [MESSAGE][PASSED] - Current window maximized
+
+26-01-2024T20:58:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=electronics-intl-ship", true): All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T20:58:04 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T20:58:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Alexa"): Text 'Alexa' is set on object 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+26-01-2024T20:58:05 - [MESSAGE][PASSED] - Text 'Alexa' is set on object 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+26-01-2024T20:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+26-01-2024T20:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+26-01-2024T20:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com  Alexa/span_Certified Refurbished Echo Dot (4th Ge_54254b")): Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com  Alexa/span_Certified Refurbished Echo Dot (4th Ge_54254b' is clicked on
+
+26-01-2024T20:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com  Alexa/span_Certified Refurbished Echo Dot (4th Ge_54254b' is clicked on
+
+26-01-2024T20:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo Dot (4th Gen)  Smart speaker with clock and Alexa  Twilight Blue  Amazon Devices  Accessories/span_Quantity1")): Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo Dot (4th Gen)  Smart speaker with clock and Alexa  Twilight Blue  Amazon Devices  Accessories/span_Quantity1' is clicked on
+
+26-01-2024T20:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo Dot (4th Gen)  Smart speaker with clock and Alexa  Twilight Blue  Amazon Devices  Accessories/span_Quantity1' is clicked on
+
+26-01-2024T20:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo _bb43fb/a_2")): Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo _bb43fb/a_2' is clicked on
+
+26-01-2024T20:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo _bb43fb/a_2' is clicked on
+
+26-01-2024T20:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo _bb43fb/span_Add to Cart")): Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo _bb43fb/span_Add to Cart' is clicked on
+
+26-01-2024T20:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com Certified Refurbished Echo _bb43fb/span_Add to Cart' is clicked on
+
+26-01-2024T20:58:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T20:58:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Order_Item_005" time="18.732" classname="Test Cases/Amazon/TC_Amazon_Order_Item_005" status="PASSED">
+         <system-out><![CDATA[26-01-2024T20:58:20 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Order_Item_005: Test Cases/Amazon/TC_Amazon_Order_Item_005
+
+26-01-2024T20:58:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T20:58:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T20:58:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T20:58:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T20:58:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-01-2024T20:58:23 - [MESSAGE][PASSED] - Current window maximized
+
+26-01-2024T20:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite")): Object: 'Object Repository/Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite' is clicked on
+
+26-01-2024T20:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite' is clicked on
+
+26-01-2024T20:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Order_Item_OR/Page_Amazon.com Shopping Cart/input_This order contains a gift_proceedToRetailCheckout")): Object: 'Object Repository/Amazon_Order_Item_OR/Page_Amazon.com Shopping Cart/input_This order contains a gift_proceedToRetailCheckout' is clicked on
+
+26-01-2024T20:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Order_Item_OR/Page_Amazon.com Shopping Cart/input_This order contains a gift_proceedToRetailCheckout' is clicked on
+
+26-01-2024T20:58:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T20:58:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Registration_001" time="16.776" classname="Test Cases/Amazon/TC_Amazon_Registration_001" status="PASSED">
+         <system-out><![CDATA[26-01-2024T20:58:38 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Registration_001: Test Cases/Amazon/TC_Amazon_Registration_001
+
+26-01-2024T20:58:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T20:58:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T20:58:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T20:58:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T20:58:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:41 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-01-2024T20:58:41 - [MESSAGE][PASSED] - Current window maximized
+
+26-01-2024T20:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+26-01-2024T20:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+26-01-2024T20:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account")): Object: 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+26-01-2024T20:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+26-01-2024T20:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName"), "Varshith Puli"): Text 'Varshith Puli' is set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName'
+
+26-01-2024T20:58:51 - [MESSAGE][PASSED] - Text 'Varshith Puli' is set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName'
+
+26-01-2024T20:58:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email"), "pulivarshit@gmail.com"): Text 'pulivarshit@gmail.com' is set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email'
+
+26-01-2024T20:58:52 - [MESSAGE][PASSED] - Text 'pulivarshit@gmail.com' is set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email'
+
+26-01-2024T20:58:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password"), "ekVqcL3GsCB2rhXwrdHNaQ=="): Text ****** has been set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password'
+
+26-01-2024T20:58:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password'
+
+26-01-2024T20:58:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck"), "ekVqcL3GsCB2rhXwrdHNaQ=="): Text ****** has been set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck'
+
+26-01-2024T20:58:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck'
+
+26-01-2024T20:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+26-01-2024T20:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+26-01-2024T20:58:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T20:58:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Search_Item_003" time="13.825" classname="Test Cases/Amazon/TC_Amazon_Search_Item_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T20:58:55 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Search_Item_003: Test Cases/Amazon/TC_Amazon_Search_Item_003
+
+26-01-2024T20:58:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T20:58:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T20:58:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T20:58:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T20:58:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:59 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:58:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-01-2024T20:58:59 - [MESSAGE][PASSED] - Current window maximized
+
+26-01-2024T20:58:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T20:59:02 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T20:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Death Note"): Text 'Death Note' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+26-01-2024T20:59:03 - [MESSAGE][PASSED] - Text 'Death Note' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+26-01-2024T20:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+26-01-2024T20:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+26-01-2024T20:59:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T20:59:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Sign_In_002" time="21.139" classname="Test Cases/Amazon/TC_Amazon_Sign_In_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T20:59:09 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Sign_In_002: Test Cases/Amazon/TC_Amazon_Sign_In_002
+
+26-01-2024T20:59:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T20:59:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T20:59:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T20:59:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T20:59:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:59:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T20:59:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-01-2024T20:59:12 - [MESSAGE][PASSED] - Current window maximized
+
+26-01-2024T20:59:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+26-01-2024T20:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+26-01-2024T20:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email"), "pulivarshit@gmail.com"): Text 'pulivarshit@gmail.com' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+26-01-2024T20:59:27 - [MESSAGE][PASSED] - Text 'pulivarshit@gmail.com' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+26-01-2024T20:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+26-01-2024T20:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+26-01-2024T20:59:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password"), "ekVqcL3GsCB2rhXwrdHNaQ=="): Text ****** has been set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+26-01-2024T20:59:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+26-01-2024T20:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+26-01-2024T20:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+26-01-2024T20:59:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T20:59:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T20:57:57 - [TEST_SUITE][PASSED] - Amazon_Recording_Scenarios_001: Test Cases/Amazon/TC_Amazon_Sign_In_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate the amazon application to search an item.</description>
+   <name>TC_Amazon_Search_Item_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4004888-1c9b-4224-8792-2657b30c0482</testCaseGuid>
+</TestCaseEntity>

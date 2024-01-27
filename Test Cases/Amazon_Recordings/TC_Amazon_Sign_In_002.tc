@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate the amazon application for the Sign In User Interface</description>
+   <name>TC_Amazon_Sign_In_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6eca96e7-a772-43d7-b4bb-d54eef7aaee1</testCaseGuid>
+</TestCaseEntity>

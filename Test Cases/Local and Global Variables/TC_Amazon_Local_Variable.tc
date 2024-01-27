@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Local_Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0912935-c3e4-4388-867c-758afeb927d6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67645343-276d-4d7a-acb6-a6cfd114a2be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7407c0a-2fc7-4986-a899-96f0aafb9dbb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb450c91-2a9c-4f34-86b5-e1dffd271e6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Varshith Puli'</defaultValue>
+      <description></description>
+      <id>67645343-276d-4d7a-acb6-a6cfd114a2be</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'pulivarshit@gmail.com\r\n'</defaultValue>
+      <description></description>
+      <id>d7407c0a-2fc7-4986-a899-96f0aafb9dbb</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'confidential'</defaultValue>
+      <description></description>
+      <id>bb450c91-2a9c-4f34-86b5-e1dffd271e6b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

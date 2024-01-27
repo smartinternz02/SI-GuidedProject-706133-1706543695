@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Manage, add, or remove user profiles f_68ac71</name>
+   <tag></tag>
+   <elementGuidId>b723952e-6060-442f-abfb-c3ee6f4ce00a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-page']/div/div/div[4]/div/a/div/div/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fb68ead6-2ef8-4cb1-b705-c9744b08ec98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-color-secondary</value>
+      <webElementGuid>31300492-4a03-4b64-b9d0-aaf7487211b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage, add, or remove user profiles for personalized experiences</value>
+      <webElementGuid>4364e36a-755a-4d53-969e-83295e27c49e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-page&quot;)/div[@class=&quot;a-container&quot;]/div[@class=&quot;a-section ya-personalized&quot;]/div[@class=&quot;ya-card-row&quot;]/div[@class=&quot;ya-card-cell&quot;]/a[@class=&quot;ya-card__whole-card-link&quot;]/div[@class=&quot;a-box ya-card--rich&quot;]/div[@class=&quot;a-box-inner&quot;]/div[@class=&quot;a-row&quot;]/div[@class=&quot;a-column a-span9 a-span-last&quot;]/div[1]/span[@class=&quot;a-color-secondary&quot;]</value>
+      <webElementGuid>ec5d28f3-36b8-44ae-952d-98cf069dd3a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-page']/div/div/div[4]/div/a/div/div/div/div[2]/div/span</value>
+      <webElementGuid>53fd3e80-6ee1-4615-8c80-34804fe42345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a/div/div/div/div[2]/div/span</value>
+      <webElementGuid>e42df6a2-0ac9-4645-a04c-48b48d9b6ba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Manage, add, or remove user profiles for personalized experiences' or . = 'Manage, add, or remove user profiles for personalized experiences')]</value>
+      <webElementGuid>d83b9191-302d-4aba-9a67-c4a72b11a658</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
