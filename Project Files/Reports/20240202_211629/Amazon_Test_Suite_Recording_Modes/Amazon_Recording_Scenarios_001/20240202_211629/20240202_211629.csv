@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,Chrome 121.0.0.0,,,02-02-2024 21:16:35,02-02-2024 21:17:57,1m - 22.064s,FAILED
+,,,,,,,
+Test Cases/Amazon_Recordings/TC_Amazon_Search_Item_003,Chrome 121.0.0.0,Validate the amazon application to search an item.,,02-02-2024 21:16:35,02-02-2024 21:17:05,29.721s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:16:35,02-02-2024 21:16:36,0.451s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:16:36,02-02-2024 21:16:37,1.428s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:16:37,02-02-2024 21:16:39,1.927s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:16:39,02-02-2024 21:16:39,0.151s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,02-02-2024 21:16:39,02-02-2024 21:16:59,19.191s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Death Note"")",Chrome 121.0.0.0,,,02-02-2024 21:16:59,02-02-2024 21:16:59,0.839s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,02-02-2024 21:16:59,02-02-2024 21:17:05,5.340s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:17:05,02-02-2024 21:17:05,0.214s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:05,02-02-2024 21:17:05,0.061s,ERROR
+,,,,,,,
+Test Cases/Amazon_Recordings/TC_Amazon_AddToCart_004,Chrome 121.0.0.0,Validate the amazon application for Add to Cart feature,,02-02-2024 21:17:05,02-02-2024 21:17:45,39.615s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:05,02-02-2024 21:17:05,0.053s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:17:05,02-02-2024 21:17:06,0.696s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:17:06,02-02-2024 21:17:08,1.965s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:17:08,02-02-2024 21:17:08,0.134s,PASSED
+"selectOptionByValue(findTestObject(""Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,02-02-2024 21:17:08,02-02-2024 21:17:19,11.301s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Alexa"")",Chrome 121.0.0.0,,,02-02-2024 21:17:19,02-02-2024 21:17:21,1.464s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,02-02-2024 21:17:21,02-02-2024 21:17:27,6.006s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com  Alexa/span_Certified Refurbished Echo Dot (4th Ge_54254b""))",Chrome 121.0.0.0,,,02-02-2024 21:17:27,02-02-2024 21:17:45,17.812s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:45,02-02-2024 21:17:45,0.098s,ERROR
+,,,,,,,
+Test Cases/Amazon_Recordings/TC_Amazon_Registration_001,Chrome 121.0.0.0,Validate the amazon application for Registering as a New User,,02-02-2024 21:17:45,02-02-2024 21:17:48,2.946s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:45,02-02-2024 21:17:45,0.102s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:17:45,02-02-2024 21:17:46,0.815s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:17:46,02-02-2024 21:17:47,1.837s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:17:47,02-02-2024 21:17:48,0.014s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:48,02-02-2024 21:17:48,0.092s,ERROR
+,,,,,,,
+Test Cases/Amazon_Recordings/TC_Amazon_Sign_In_002,Chrome 121.0.0.0,Validate the amazon application for the Sign In User Interface,,02-02-2024 21:17:48,02-02-2024 21:17:53,5.282s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:48,02-02-2024 21:17:48,0.069s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:17:48,02-02-2024 21:17:49,0.826s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:17:49,02-02-2024 21:17:50,1.926s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:17:50,02-02-2024 21:17:51,0.123s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,02-02-2024 21:17:51,02-02-2024 21:17:53,2.180s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:53,02-02-2024 21:17:53,0.089s,ERROR
+,,,,,,,
+Test Cases/Amazon_Recordings/TC_Amazon_Order_Item_005,Chrome 121.0.0.0,Validate the amazon appliction to Order an item,,02-02-2024 21:17:53,02-02-2024 21:17:57,4.313s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:53,02-02-2024 21:17:53,0.071s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:17:53,02-02-2024 21:17:54,0.790s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:17:54,02-02-2024 21:17:56,1.931s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:17:56,02-02-2024 21:17:56,0.131s,PASSED
+"click(findTestObject(""Amazon_Order_Item_OR/Amazon_Order_Item/span_Orders_nav-cart-icon nav-sprite""))",Chrome 121.0.0.0,,,02-02-2024 21:17:56,02-02-2024 21:17:57,1.220s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:17:57,02-02-2024 21:17:57,0.092s,ERROR

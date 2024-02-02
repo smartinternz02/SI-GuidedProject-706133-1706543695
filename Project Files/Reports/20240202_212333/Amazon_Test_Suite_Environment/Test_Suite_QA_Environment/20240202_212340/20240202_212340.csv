@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_QA_Environment,Chrome 121.0.0.0,,,02-02-2024 21:28:48,02-02-2024 21:29:13,25.252s,PASSED
+,,,,,,,
+Test Cases/Environment/TC_QA_Environment_001,Chrome 121.0.0.0,,,02-02-2024 21:28:48,02-02-2024 21:29:13,25.064s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:28:48,02-02-2024 21:28:49,0.452s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:28:49,02-02-2024 21:28:50,1.355s,PASSED
+navigateToUrl(Url),Chrome 121.0.0.0,,,02-02-2024 21:28:50,02-02-2024 21:28:52,1.656s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:28:52,02-02-2024 21:28:52,0.133s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,02-02-2024 21:28:52,02-02-2024 21:29:06,14.170s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,02-02-2024 21:29:06,02-02-2024 21:29:08,1.888s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName""), Name)",Chrome 121.0.0.0,,,02-02-2024 21:29:08,02-02-2024 21:29:10,1.412s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email""), Email)",Chrome 121.0.0.0,,,02-02-2024 21:29:10,02-02-2024 21:29:10,0.642s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password""), Password)",Chrome 121.0.0.0,,,02-02-2024 21:29:10,02-02-2024 21:29:11,0.634s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck""), Password)",Chrome 121.0.0.0,,,02-02-2024 21:29:11,02-02-2024 21:29:12,0.843s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,02-02-2024 21:29:12,02-02-2024 21:29:13,1.400s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:29:13,02-02-2024 21:29:13,0.287s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:29:13,02-02-2024 21:29:13,0.051s,ERROR

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_testButtons_001,,,,02-02-2024 21:04:05,02-02-2024 21:04:09,3.477s,FAILED
+,,,,,,,
+Test Cases/Amazon_Handling_Buttons/Amazon_CheckBox_Button_001,,,,02-02-2024 21:04:06,02-02-2024 21:04:08,2.094s,FAILED
+Start listener action : sampleBeforeTestCase,,,,02-02-2024 21:04:06,02-02-2024 21:04:06,0.469s,ERROR
+"openBrowser("""")",,,,02-02-2024 21:04:06,02-02-2024 21:04:08,1.435s,FAILED
+Start listener action : sampleAfterTestCase,,,,02-02-2024 21:04:08,02-02-2024 21:04:08,0.068s,ERROR
+,,,,,,,
+Test Cases/Amazon_Handling_Buttons/Amazon_DropDown_Button_002,,,,02-02-2024 21:04:08,02-02-2024 21:04:09,1.186s,FAILED
+Start listener action : sampleBeforeTestCase,,,,02-02-2024 21:04:08,02-02-2024 21:04:08,0.059s,ERROR
+"openBrowser("""")",,,,02-02-2024 21:04:08,02-02-2024 21:04:09,0.977s,FAILED
+Start listener action : sampleAfterTestCase,,,,02-02-2024 21:04:09,02-02-2024 21:04:09,0.050s,ERROR

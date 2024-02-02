@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TL_SearchItem_Validation" time="50.885" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TL_SearchItem_Validation" tests="1" failures="0" errors="0" time="50.885" skipped="0" timestamp="02-02-2024T21:30:25" hostname="puliv - 192.168.1.44" id="Test Suites/Amazon_TL_Test_Suite/Amazon_TL_SearchItem_Validation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Workspace\\AMAZON_Automation-Testing-using-Katalon\\Project Files\\Reports\\20240202_212333\\Amazon_TL_Test_Suite\\Amazon_TL_SearchItem_Validation\\20240202_212344"/>
+         <property name="logFiles" value="C:\\Workspace\\AMAZON_Automation-Testing-using-Katalon\\Project Files\\Reports\\20240202_212333\\Amazon_TL_Test_Suite\\Amazon_TL_SearchItem_Validation\\20240202_212344\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="puliv - 192.168.1.44"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.44"/>
+         <property name="sessionId" value="ccd33c48c5b2fd5a9939ac4e336eda70"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazom_Test_Listeners/TC_TL_Amazon_SearchItem_Validation" time="47.373" classname="Test Cases/Amazom_Test_Listeners/TC_TL_Amazon_SearchItem_Validation" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:30:29 - [TEST_CASE][PASSED] - Test Cases/Amazom_Test_Listeners/TC_TL_Amazon_SearchItem_Validation: Test Cases/Amazom_Test_Listeners/TC_TL_Amazon_SearchItem_Validation
+
+02-02-2024T21:30:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+02-02-2024T21:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+02-02-2024T21:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+02-02-2024T21:30:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_email"), "pulivarshit@gmail.com"): Text 'pulivarshit@gmail.com' is set on object 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_email'
+
+02-02-2024T21:30:40 - [MESSAGE][PASSED] - Text 'pulivarshit@gmail.com' is set on object 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_email'
+
+02-02-2024T21:30:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+02-02-2024T21:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+02-02-2024T21:30:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_password"), "8LAb5JbH9GYYbeHjJjwPWg=="): Text ****** has been set on object 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_password'
+
+02-02-2024T21:30:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/input_password'
+
+02-02-2024T21:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+02-02-2024T21:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+02-02-2024T21:30:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+02-02-2024T21:31:04 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+02-02-2024T21:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Death Note"): Text 'Death Note' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+02-02-2024T21:31:05 - [MESSAGE][PASSED] - Text 'Death Note' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+02-02-2024T21:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+02-02-2024T21:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+02-02-2024T21:31:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out' is clicked on
+
+02-02-2024T21:31:12 - [TEST_STEP][PASSED] - focus(findTestObject("Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow")): Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow' is focused
+
+02-02-2024T21:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow' is focused
+
+02-02-2024T21:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out")): Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out' is clicked on
+
+02-02-2024T21:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T21:30:25 - [TEST_SUITE][PASSED] - Amazon_TL_SearchItem_Validation: Test Cases/Amazom_Test_Listeners/TC_TL_Amazon_SearchItem_Validation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

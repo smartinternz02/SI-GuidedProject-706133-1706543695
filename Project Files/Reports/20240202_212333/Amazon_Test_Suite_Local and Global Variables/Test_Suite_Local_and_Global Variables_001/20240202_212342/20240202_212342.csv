@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Local_and_Global Variables_001,Chrome 121.0.0.0,,,02-02-2024 21:29:25,02-02-2024 21:30:12,46.448s,PASSED
+,,,,,,,
+Test Cases/Local and Global Variables/TC_Amazon_Global_Variable_Sign_In,Chrome 121.0.0.0,,,02-02-2024 21:29:25,02-02-2024 21:29:48,22.869s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:29:25,02-02-2024 21:29:26,0.456s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:29:26,02-02-2024 21:29:28,1.474s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:29:28,02-02-2024 21:29:29,1.194s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:29:29,02-02-2024 21:29:29,0.130s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,02-02-2024 21:29:29,02-02-2024 21:29:42,12.737s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,02-02-2024 21:29:42,02-02-2024 21:29:43,1.511s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName""), Name)",Chrome 121.0.0.0,,,02-02-2024 21:29:43,02-02-2024 21:29:44,1.278s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email""), Email)",Chrome 121.0.0.0,,,02-02-2024 21:29:44,02-02-2024 21:29:45,0.647s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password""), Password)",Chrome 121.0.0.0,,,02-02-2024 21:29:45,02-02-2024 21:29:46,0.651s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck""), Password)",Chrome 121.0.0.0,,,02-02-2024 21:29:46,02-02-2024 21:29:47,0.858s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,02-02-2024 21:29:47,02-02-2024 21:29:48,1.448s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:29:48,02-02-2024 21:29:48,0.270s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:29:48,02-02-2024 21:29:48,0.064s,ERROR
+,,,,,,,
+Test Cases/Local and Global Variables/TC_Amazon_Local_Variable_Sign_In,Chrome 121.0.0.0,,,02-02-2024 21:29:48,02-02-2024 21:30:12,23.392s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:29:48,02-02-2024 21:29:48,0.044s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:29:49,02-02-2024 21:29:49,0.780s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:29:49,02-02-2024 21:29:51,1.363s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:29:51,02-02-2024 21:29:51,0.122s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,02-02-2024 21:29:51,02-02-2024 21:30:05,14.520s,PASSED
+"click(findTestObject(""Amazon_Registration_Page_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,02-02-2024 21:30:05,02-02-2024 21:30:07,1.374s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_customerName""), Name)",Chrome 121.0.0.0,,,02-02-2024 21:30:07,02-02-2024 21:30:08,1.262s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_email""), Email)",Chrome 121.0.0.0,,,02-02-2024 21:30:08,02-02-2024 21:30:09,0.664s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_password""), Password)",Chrome 121.0.0.0,,,02-02-2024 21:30:09,02-02-2024 21:30:10,0.830s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/input_passwordCheck""), Password)",Chrome 121.0.0.0,,,02-02-2024 21:30:10,02-02-2024 21:30:10,0.835s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_Page_OR/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,02-02-2024 21:30:10,02-02-2024 21:30:11,1.043s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:30:11,02-02-2024 21:30:12,0.268s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:30:12,02-02-2024 21:30:12,0.045s,ERROR

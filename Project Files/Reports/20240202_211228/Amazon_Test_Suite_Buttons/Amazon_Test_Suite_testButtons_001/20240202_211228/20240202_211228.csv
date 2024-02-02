@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_testButtons_001,Chrome 121.0.0.0,,,02-02-2024 21:12:35,02-02-2024 21:13:23,47.995s,PASSED
+,,,,,,,
+Test Cases/Amazon_Handling_Buttons/Amazon_CheckBox_Button_001,Chrome 121.0.0.0,,,02-02-2024 21:12:35,02-02-2024 21:13:01,26.350s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:12:35,02-02-2024 21:12:35,0.458s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:12:36,02-02-2024 21:12:37,1.514s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:12:37,02-02-2024 21:12:39,1.834s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:12:39,02-02-2024 21:12:39,0.139s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_CheckBox_Buttons_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), 5, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,02-02-2024 21:12:39,02-02-2024 21:12:51,11.636s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_CheckBox_Buttons_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Death Note"")",Chrome 121.0.0.0,,,02-02-2024 21:12:51,02-02-2024 21:12:52,1.076s,PASSED
+"click(findTestObject(""Amazon_CheckBox_Buttons_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,02-02-2024 21:12:52,02-02-2024 21:12:57,4.911s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CheckBox_Buttons_OR/Page_Amazon.com  Death Note/i_a-icon a-icon-checkbox""))",Chrome 121.0.0.0,,,02-02-2024 21:12:57,02-02-2024 21:13:00,3.425s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CheckBox_Buttons_OR/Page_Amazon.com  Death Note/i_a-icon a-icon-checkbox_1""))",Chrome 121.0.0.0,,,02-02-2024 21:13:00,02-02-2024 21:13:01,0.805s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:13:01,02-02-2024 21:13:01,0.346s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:13:01,02-02-2024 21:13:01,0.068s,ERROR
+,,,,,,,
+Test Cases/Amazon_Handling_Buttons/Amazon_DropDown_Button_002,Chrome 121.0.0.0,,,02-02-2024 21:13:01,02-02-2024 21:13:23,21.445s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:13:01,02-02-2024 21:13:01,0.049s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:13:01,02-02-2024 21:13:02,0.715s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,02-02-2024 21:13:02,02-02-2024 21:13:04,1.869s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,02-02-2024 21:13:04,02-02-2024 21:13:04,0.126s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), 5, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,02-02-2024 21:13:04,02-02-2024 21:13:16,11.740s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Death Note"")",Chrome 121.0.0.0,,,02-02-2024 21:13:16,02-02-2024 21:13:18,1.683s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,02-02-2024 21:13:18,02-02-2024 21:13:22,4.832s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:13:22,02-02-2024 21:13:23,0.308s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:13:23,02-02-2024 21:13:23,0.040s,ERROR
