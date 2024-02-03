@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_Custom_Keyword_Functions,,,,03-02-2024 21:56:10,03-02-2024 21:56:11,0.801s,PASSED
+,,,,,,,
+Test Cases/Custom_Keywords/Amazon_Custom_Keywords_001,,,,03-02-2024 21:56:11,03-02-2024 21:56:11,0.615s,PASSED
+Start listener action : sampleBeforeTestCase,,,,03-02-2024 21:56:11,03-02-2024 21:56:11,0.415s,ERROR
+custom_keywords_pack.customFunction.token(),,,,03-02-2024 21:56:11,03-02-2024 21:56:11,0.016s,PASSED
+custom_keywords_pack.customFunction.issue(),,,,03-02-2024 21:56:11,03-02-2024 21:56:11,0.005s,PASSED
+"custom_keywords_pack.customFunction.userName(""Varshith"")",,,,03-02-2024 21:56:11,03-02-2024 21:56:11,0.007s,PASSED
+Start listener action : sampleAfterTestCase,,,,03-02-2024 21:56:11,03-02-2024 21:56:11,0.065s,ERROR

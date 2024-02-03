@@ -1,0 +1,40 @@
+{
+  "keywordFileContentHash": "AD20F31CA3B0CD7776AF4A0199C17243",
+  "keywordClasses": [
+    {
+      "name": "custom_keywords_pack.customFunction",
+      "keywordMethods": [
+        {
+          "name": "token",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "issue",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "userName",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
