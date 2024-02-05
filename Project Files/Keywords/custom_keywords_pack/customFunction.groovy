@@ -21,17 +21,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class customFunction {
-	
+
 	@Keyword
 	def token() {
 		println("\n<< You have generated a token >>\n")
 	}
-	
+
 	@Keyword
 	def issue() {
 		println("\n<< Your issue has been resolved >>\n")
 	}
-	
+
 	@Keyword
 	def userName(String name) {
 		println("\n..... Hey " + name + " ! .....\n")

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite_Excel,Chrome 121.0.0.0,,,05-02-2024 22:48:48,05-02-2024 22:49:33,45.041s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 121.0.0.0,,,05-02-2024 22:48:48,05-02-2024 22:49:11,22.683s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,05-02-2024 22:48:48,05-02-2024 22:48:49,0.479s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,05-02-2024 22:48:49,05-02-2024 22:48:51,1.729s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,05-02-2024 22:48:51,05-02-2024 22:48:52,1.855s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,05-02-2024 22:48:52,05-02-2024 22:48:53,0.138s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Category_Item, true)",Chrome 121.0.0.0,,,05-02-2024 22:48:53,05-02-2024 22:49:03,10.334s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), Product)",Chrome 121.0.0.0,,,05-02-2024 22:49:03,05-02-2024 22:49:04,0.984s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,05-02-2024 22:49:04,05-02-2024 22:49:10,6.612s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,05-02-2024 22:49:10,05-02-2024 22:49:11,0.314s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:11,05-02-2024 22:49:11,0.065s,ERROR
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 121.0.0.0,,,05-02-2024 22:49:11,05-02-2024 22:49:27,16.221s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:11,05-02-2024 22:49:11,0.040s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,05-02-2024 22:49:11,05-02-2024 22:49:12,0.748s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,05-02-2024 22:49:12,05-02-2024 22:49:14,1.871s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,05-02-2024 22:49:14,05-02-2024 22:49:14,0.126s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Category_Item, true)",Chrome 121.0.0.0,,,05-02-2024 22:49:14,05-02-2024 22:49:24,9.973s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), Product)",Chrome 121.0.0.0,,,05-02-2024 22:49:24,05-02-2024 22:49:25,1.607s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,05-02-2024 22:49:25,05-02-2024 22:49:27,1.667s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:27,05-02-2024 22:49:27,0.164s,ERROR
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 121.0.0.0,,,05-02-2024 22:49:27,05-02-2024 22:49:31,3.886s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:27,05-02-2024 22:49:27,0.077s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,05-02-2024 22:49:27,05-02-2024 22:49:28,0.881s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,05-02-2024 22:49:28,05-02-2024 22:49:30,1.458s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,05-02-2024 22:49:30,05-02-2024 22:49:30,0.125s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), Category_Item, true)",Chrome 121.0.0.0,,,05-02-2024 22:49:30,05-02-2024 22:49:31,1.224s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:31,05-02-2024 22:49:31,0.094s,ERROR
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Excel_001,Chrome 121.0.0.0,,,05-02-2024 22:49:31,05-02-2024 22:49:33,1.897s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:31,05-02-2024 22:49:31,0.064s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,05-02-2024 22:49:31,05-02-2024 22:49:32,0.780s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,05-02-2024 22:49:32,05-02-2024 22:49:33,0.907s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,05-02-2024 22:49:33,05-02-2024 22:49:33,0.017s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,05-02-2024 22:49:33,05-02-2024 22:49:33,0.102s,ERROR
