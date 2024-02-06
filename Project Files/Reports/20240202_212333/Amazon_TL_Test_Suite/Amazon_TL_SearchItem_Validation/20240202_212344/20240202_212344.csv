@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Amazon_TL_SearchItem_Validation,Chrome 121.0.0.0,,,02-02-2024 21:30:25,02-02-2024 21:31:16,50.885s,PASSED
-,,,,,,,
-Test Cases/Amazom_Test_Listeners/TC_TL_Amazon_SearchItem_Validation,Chrome 121.0.0.0,,,02-02-2024 21:30:29,02-02-2024 21:31:16,47.373s,PASSED
-Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:30:29,02-02-2024 21:30:42,13.197s,PASSED
-"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,02-02-2024 21:30:42,02-02-2024 21:31:04,22.160s,PASSED
-"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Death Note"")",Chrome 121.0.0.0,,,02-02-2024 21:31:04,02-02-2024 21:31:05,0.831s,PASSED
-"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,02-02-2024 21:31:05,02-02-2024 21:31:12,6.521s,PASSED
-Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:31:12,02-02-2024 21:31:16,4.567s,PASSED

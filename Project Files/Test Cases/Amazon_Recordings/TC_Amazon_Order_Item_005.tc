@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Validate the amazon appliction to Order an item</description>
-   <name>TC_Amazon_Order_Item_005</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d1295d6c-7852-4541-83c2-304faa5d584f</testCaseGuid>
-</TestCaseEntity>
