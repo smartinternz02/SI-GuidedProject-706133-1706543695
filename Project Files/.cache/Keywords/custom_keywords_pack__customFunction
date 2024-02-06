@@ -6,11 +6,13 @@
       "keywordMethods": [
         {
           "name": "token",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "issue",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "userName",
@@ -28,10 +30,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
